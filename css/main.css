@@ -1,0 +1,242 @@
+body {
+    overflow-x: hidden;
+    font-family: Inter,sans-serif !important; 
+    
+  }
+.main{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.gbRelative{
+    
+    position: relative;
+    overflow: hidden;
+    height: 10px;
+    width: 100px;
+}
+
+#bgimg{
+    width: 100%;
+    object-fit: cover;
+}
+.captions{
+    left: 15%;
+    position: absolute;
+    top: 37%;
+    
+}
+.captions h1{
+    font-size: 50px;
+    font-weight: 650;
+
+}
+.homebutton{
+    position: absolute;
+    top:65%;
+    left: 15%;
+
+}
+.btnHome{
+    
+    border-radius: 5px;
+    width:200px;
+    border: none;
+    background-color: rgb(15, 182, 146);
+    color: white;
+    font-size: small;
+    padding: 8%;
+}
+.btnHome:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+.doctorsTalk{
+
+    position: absolute;
+    top:65%;
+    left: 31%;
+
+}
+.doctorsTalk p{
+    padding-left: 10px;
+    text-decoration: underline;
+    padding-top: 7px;
+}
+.card{
+  
+    position: absolute;
+    width: 60%;
+    top:80%;
+    left: 20%;
+    border-radius: 10px;
+    background-color: white;
+    border-color: black;
+    border-style:hidden;
+}
+
+.row1{
+    display: flex;
+}
+.single{
+    flex:1;
+    padding: 1%;
+}
+input{
+    width:100%;
+    height: 150%;
+    
+}
+.row2{
+    display: flex;
+    padding-top: 3%;
+}
+select{
+    width:100%;
+    height: 150%;
+}
+.btnForm{
+    border-radius: 5px;
+    width:100%;
+    height: 155%;
+    border: none;
+    background-color: rgb(15, 182, 146);
+    color: white;
+    font-size: small;
+    
+}
+.btnForm:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+.middle{
+    margin-top: 20%;
+}
+.pics{
+    display: flex;
+}
+.pic-content{
+   
+    flex: 1;
+    padding-top: 1%;
+    padding-right: 6%;
+    
+}
+.pic-content p{
+    font-size: 15px;
+    width: 80%;
+}
+.pic{
+ 
+    padding-bottom: 2%;
+    width: 115%;
+}
+.read-more {
+    text-decoration: underline;
+    color: rgb(0, 180, 150);
+    cursor: pointer; 
+}
+.whygg{
+    margin: 0;
+    padding-top: 10%;
+
+}
+.why{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.specialist{
+   
+    padding-top: 10%;
+    align-content: center;
+    justify-content: center;
+}
+.meet{
+    
+    text-align: center;
+    
+}
+.meet h3{
+    font-weight: 600px;
+
+}
+.meet p{
+    color: rgb(131, 131, 131);
+}
+.docpic{
+    display: flex;
+}
+.doc{
+    flex: 1;
+}
+.doc img{
+    width: 90%;
+}
+
+.view{
+    border-radius: 5px;
+    width:12%;
+    height: 40px;
+    
+    border: none;
+    background-color: rgb(15, 182, 146);
+    color: white;
+    font-size: small;
+    
+}
+.view:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+.facilities{
+    padding-top: 10%;
+    text-align: center;
+    font-weight: 600px;
+}
+.activitypic{
+    display: flex;
+    padding-top: 1%;
+    
+}
+.activity{
+    flex: 1;
+   
+}
+.activity img{
+    width: 90%;
+}
+.subs img{
+    width: 90%;
+    padding-top: 300px  ;
+    padding-left: 9%;
+}
+.Interested{
+    padding-top: 10%;
+}
+
+
+.pics2{
+    display: flex;
+}
+.pic-content2{
+   
+    flex: 1;
+    padding-top: 1%;
+    padding-right: 6%;
+    
+}
+.pic-content2 p{
+    font-size: 15px;
+    width: 80%;
+}
+.pic{
+ 
+    padding-bottom: 2%;
+    width: 115%;
+}
+.bgblue{
+        background-color: #EAF2FF;
+        margin-top: -250px;
+        padding: 0;
+        width: 1372px;
+        margin-left: -100px;
+        padding-bottom: 15%;
+}

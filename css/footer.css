@@ -1,0 +1,35 @@
+.footer1{
+    display: flex;
+    padding: 6%;
+}
+.footerlogo{
+    flex: 2;
+    font-size: 10px;
+
+}
+.footerlogo img{
+    width: 60%;
+    padding: 2%;
+}
+.footermeanu{
+    flex: 5;
+    padding-left: 10%;
+    font-size: 12px;
+}
+#f2{
+    font-weight: 800;
+}
+.hrdiv{
+    width: 96%;
+    margin-top: -60px;
+    padding-left: 5%;
+   
+}
+.footer2{
+    font-size: 12px;   
+    padding-left: 6%;
+   padding-bottom: 4%;
+}
+.lastFooter{
+    font-size: 12px;
+}
